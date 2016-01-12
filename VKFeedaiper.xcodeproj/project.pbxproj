@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360168293E26549AE4B77BA4 /* libPods-VKFeedaiperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFFA5A3DF8921B5060A043 /* libPods-VKFeedaiperTests.a */; };
+		473DBEFC1C44D9A600516EE8 /* WallFeedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 473DBEFB1C44D9A600516EE8 /* WallFeedViewCell.m */; };
+		473DBF011C44E16100516EE8 /* MDHTMLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 473DBF001C44E16100516EE8 /* MDHTMLLabel.m */; };
+		9A1E8A4286D34102A3813FBB /* libPods-VKFeedaiper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778715408A9D74C6726F318 /* libPods-VKFeedaiper.a */; };
+		E8E81EE01C4411A3005C59F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81EDF1C4411A3005C59F3 /* main.m */; };
+		E8E81EE31C4411A3005C59F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81EE21C4411A3005C59F3 /* AppDelegate.m */; };
+		E8E81EE91C4411A3005C59F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E81EE71C4411A3005C59F3 /* Main.storyboard */; };
+		E8E81EEB1C4411A3005C59F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E81EEA1C4411A3005C59F3 /* Assets.xcassets */; };
+		E8E81EEE1C4411A3005C59F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E81EEC1C4411A3005C59F3 /* LaunchScreen.storyboard */; };
+		E8E81EF91C4411A3005C59F3 /* VKFeedaiperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81EF81C4411A3005C59F3 /* VKFeedaiperTests.m */; };
+		E8E81F091C44185E005C59F3 /* BaseNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F081C44185E005C59F3 /* BaseNetworkHelper.m */; };
+		E8E81F0D1C441AFA005C59F3 /* WallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F0C1C441AFA005C59F3 /* WallModel.m */; };
+		E8E81F0F1C441F42005C59F3 /* WallNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F0E1C441F42005C59F3 /* WallNetworkHelper.m */; };
+		E8E81F271C4429A6005C59F3 /* WallFeedAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F141C4429A6005C59F3 /* WallFeedAssembly.m */; };
+		E8E81F281C4429A6005C59F3 /* WallFeedInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F171C4429A6005C59F3 /* WallFeedInteractor.m */; };
+		E8E81F291C4429A6005C59F3 /* WallFeedPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F1D1C4429A6005C59F3 /* WallFeedPresenter.m */; };
+		E8E81F2A1C4429A6005C59F3 /* WallFeedRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F201C4429A6005C59F3 /* WallFeedRouter.m */; };
+		E8E81F2B1C4429A6005C59F3 /* WallFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F241C4429A6005C59F3 /* WallFeedViewController.m */; };
+		E8E81F2F1C443E8F005C59F3 /* WallFeedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E81F2E1C443E8F005C59F3 /* WallFeedDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8E81EF51C4411A3005C59F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E81ED31C4411A3005C59F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E81EDA1C4411A3005C59F3;
+			remoteInfo = VKFeedaiper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BAFFA5A3DF8921B5060A043 /* libPods-VKFeedaiperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKFeedaiperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246B3771909186639FCB607E /* Pods-VKFeedaiperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKFeedaiperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKFeedaiperTests/Pods-VKFeedaiperTests.release.xcconfig"; sourceTree = "<group>"; };
+		2778715408A9D74C6726F318 /* libPods-VKFeedaiper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKFeedaiper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA0C56155E78505010675C0 /* Pods-VKFeedaiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKFeedaiper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKFeedaiper/Pods-VKFeedaiper.debug.xcconfig"; sourceTree = "<group>"; };
+		473DBEFA1C44D9A600516EE8 /* WallFeedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedViewCell.h; sourceTree = "<group>"; };
+		473DBEFB1C44D9A600516EE8 /* WallFeedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedViewCell.m; sourceTree = "<group>"; };
+		473DBEFF1C44E16100516EE8 /* MDHTMLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDHTMLLabel.h; sourceTree = "<group>"; };
+		473DBF001C44E16100516EE8 /* MDHTMLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDHTMLLabel.m; sourceTree = "<group>"; };
+		5134A5C64C66A04B2A822A16 /* Pods-VKFeedaiperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKFeedaiperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKFeedaiperTests/Pods-VKFeedaiperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B06390792597F54B57ADD47 /* Pods-VKFeedaiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKFeedaiper.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKFeedaiper/Pods-VKFeedaiper.release.xcconfig"; sourceTree = "<group>"; };
+		E8E81EDB1C4411A3005C59F3 /* VKFeedaiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKFeedaiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E81EDF1C4411A3005C59F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E81EE11C4411A3005C59F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8E81EE21C4411A3005C59F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8E81EE81C4411A3005C59F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8E81EEA1C4411A3005C59F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8E81EED1C4411A3005C59F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8E81EEF1C4411A3005C59F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E81EF41C4411A3005C59F3 /* VKFeedaiperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKFeedaiperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E81EF81C4411A3005C59F3 /* VKFeedaiperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKFeedaiperTests.m; sourceTree = "<group>"; };
+		E8E81EFA1C4411A3005C59F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E81F041C4412F6005C59F3 /* WallNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallNetworkHelper.h; sourceTree = "<group>"; };
+		E8E81F071C44185E005C59F3 /* BaseNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworkHelper.h; sourceTree = "<group>"; };
+		E8E81F081C44185E005C59F3 /* BaseNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworkHelper.m; sourceTree = "<group>"; };
+		E8E81F0B1C441AFA005C59F3 /* WallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallModel.h; sourceTree = "<group>"; };
+		E8E81F0C1C441AFA005C59F3 /* WallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallModel.m; sourceTree = "<group>"; };
+		E8E81F0E1C441F42005C59F3 /* WallNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallNetworkHelper.m; sourceTree = "<group>"; };
+		E8E81F131C4429A6005C59F3 /* WallFeedAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedAssembly.h; sourceTree = "<group>"; };
+		E8E81F141C4429A6005C59F3 /* WallFeedAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedAssembly.m; sourceTree = "<group>"; };
+		E8E81F161C4429A6005C59F3 /* WallFeedInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedInteractor.h; sourceTree = "<group>"; };
+		E8E81F171C4429A6005C59F3 /* WallFeedInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedInteractor.m; sourceTree = "<group>"; };
+		E8E81F181C4429A6005C59F3 /* WallFeedInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedInteractorInput.h; sourceTree = "<group>"; };
+		E8E81F191C4429A6005C59F3 /* WallFeedInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedInteractorOutput.h; sourceTree = "<group>"; };
+		E8E81F1B1C4429A6005C59F3 /* WallFeedModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedModuleInput.h; sourceTree = "<group>"; };
+		E8E81F1C1C4429A6005C59F3 /* WallFeedPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedPresenter.h; sourceTree = "<group>"; };
+		E8E81F1D1C4429A6005C59F3 /* WallFeedPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedPresenter.m; sourceTree = "<group>"; };
+		E8E81F1F1C4429A6005C59F3 /* WallFeedRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedRouter.h; sourceTree = "<group>"; };
+		E8E81F201C4429A6005C59F3 /* WallFeedRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedRouter.m; sourceTree = "<group>"; };
+		E8E81F211C4429A6005C59F3 /* WallFeedRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedRouterInput.h; sourceTree = "<group>"; };
+		E8E81F231C4429A6005C59F3 /* WallFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedViewController.h; sourceTree = "<group>"; };
+		E8E81F241C4429A6005C59F3 /* WallFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedViewController.m; sourceTree = "<group>"; };
+		E8E81F251C4429A6005C59F3 /* WallFeedViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedViewInput.h; sourceTree = "<group>"; };
+		E8E81F261C4429A6005C59F3 /* WallFeedViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedViewOutput.h; sourceTree = "<group>"; };
+		E8E81F2D1C443E8F005C59F3 /* WallFeedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallFeedDataSource.h; sourceTree = "<group>"; };
+		E8E81F2E1C443E8F005C59F3 /* WallFeedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallFeedDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E81ED81C4411A3005C59F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1E8A4286D34102A3813FBB /* libPods-VKFeedaiper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E81EF11C4411A3005C59F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360168293E26549AE4B77BA4 /* libPods-VKFeedaiperTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473DBEF91C44D98200516EE8 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				473DBEFA1C44D9A600516EE8 /* WallFeedViewCell.h */,
+				473DBEFB1C44D9A600516EE8 /* WallFeedViewCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		473DBEFD1C44E16100516EE8 /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				473DBEFE1C44E16100516EE8 /* MDHTMLLabel */,
+			);
+			path = vendors;
+			sourceTree = "<group>";
+		};
+		473DBEFE1C44E16100516EE8 /* MDHTMLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				473DBEFF1C44E16100516EE8 /* MDHTMLLabel.h */,
+				473DBF001C44E16100516EE8 /* MDHTMLLabel.m */,
+			);
+			path = MDHTMLLabel;
+			sourceTree = "<group>";
+		};
+		7DCDD3BAEDB641B3DAE0E92B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2778715408A9D74C6726F318 /* libPods-VKFeedaiper.a */,
+				1BAFFA5A3DF8921B5060A043 /* libPods-VKFeedaiperTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DF96AF60D0A4B6B89D49371 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C56155E78505010675C0 /* Pods-VKFeedaiper.debug.xcconfig */,
+				5B06390792597F54B57ADD47 /* Pods-VKFeedaiper.release.xcconfig */,
+				5134A5C64C66A04B2A822A16 /* Pods-VKFeedaiperTests.debug.xcconfig */,
+				246B3771909186639FCB607E /* Pods-VKFeedaiperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8E81ED21C4411A3005C59F3 = {
+			isa = PBXGroup;
+			children = (
+				E8E81EDD1C4411A3005C59F3 /* VKFeedaiper */,
+				E8E81EF71C4411A3005C59F3 /* VKFeedaiperTests */,
+				E8E81EDC1C4411A3005C59F3 /* Products */,
+				7DF96AF60D0A4B6B89D49371 /* Pods */,
+				7DCDD3BAEDB641B3DAE0E92B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E81EDC1C4411A3005C59F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81EDB1C4411A3005C59F3 /* VKFeedaiper.app */,
+				E8E81EF41C4411A3005C59F3 /* VKFeedaiperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E81EDD1C4411A3005C59F3 /* VKFeedaiper */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F0A1C441AEB005C59F3 /* model */,
+				E8E81F031C4412E5005C59F3 /* services */,
+				E8E81F101C4429A6005C59F3 /* modules */,
+				E8E81EE11C4411A3005C59F3 /* AppDelegate.h */,
+				E8E81EE21C4411A3005C59F3 /* AppDelegate.m */,
+				E8E81EE71C4411A3005C59F3 /* Main.storyboard */,
+				E8E81EEA1C4411A3005C59F3 /* Assets.xcassets */,
+				E8E81EEC1C4411A3005C59F3 /* LaunchScreen.storyboard */,
+				E8E81EEF1C4411A3005C59F3 /* Info.plist */,
+				473DBEFD1C44E16100516EE8 /* vendors */,
+				E8E81EDE1C4411A3005C59F3 /* Supporting Files */,
+			);
+			path = VKFeedaiper;
+			sourceTree = "<group>";
+		};
+		E8E81EDE1C4411A3005C59F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81EDF1C4411A3005C59F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8E81EF71C4411A3005C59F3 /* VKFeedaiperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81EF81C4411A3005C59F3 /* VKFeedaiperTests.m */,
+				E8E81EFA1C4411A3005C59F3 /* Info.plist */,
+			);
+			path = VKFeedaiperTests;
+			sourceTree = "<group>";
+		};
+		E8E81F031C4412E5005C59F3 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F041C4412F6005C59F3 /* WallNetworkHelper.h */,
+				E8E81F0E1C441F42005C59F3 /* WallNetworkHelper.m */,
+				E8E81F071C44185E005C59F3 /* BaseNetworkHelper.h */,
+				E8E81F081C44185E005C59F3 /* BaseNetworkHelper.m */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		E8E81F0A1C441AEB005C59F3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F0B1C441AFA005C59F3 /* WallModel.h */,
+				E8E81F0C1C441AFA005C59F3 /* WallModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E8E81F101C4429A6005C59F3 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F111C4429A6005C59F3 /* WallFeed */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		E8E81F111C4429A6005C59F3 /* WallFeed */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F121C4429A6005C59F3 /* Assembly */,
+				E8E81F151C4429A6005C59F3 /* Interactor */,
+				E8E81F1A1C4429A6005C59F3 /* Presenter */,
+				E8E81F1E1C4429A6005C59F3 /* Router */,
+				E8E81F221C4429A6005C59F3 /* View */,
+			);
+			path = WallFeed;
+			sourceTree = "<group>";
+		};
+		E8E81F121C4429A6005C59F3 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F131C4429A6005C59F3 /* WallFeedAssembly.h */,
+				E8E81F141C4429A6005C59F3 /* WallFeedAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		E8E81F151C4429A6005C59F3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F161C4429A6005C59F3 /* WallFeedInteractor.h */,
+				E8E81F171C4429A6005C59F3 /* WallFeedInteractor.m */,
+				E8E81F181C4429A6005C59F3 /* WallFeedInteractorInput.h */,
+				E8E81F191C4429A6005C59F3 /* WallFeedInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E8E81F1A1C4429A6005C59F3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F2C1C443E6C005C59F3 /* WallFeedDataSource */,
+				E8E81F1B1C4429A6005C59F3 /* WallFeedModuleInput.h */,
+				E8E81F1C1C4429A6005C59F3 /* WallFeedPresenter.h */,
+				E8E81F1D1C4429A6005C59F3 /* WallFeedPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E8E81F1E1C4429A6005C59F3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F1F1C4429A6005C59F3 /* WallFeedRouter.h */,
+				E8E81F201C4429A6005C59F3 /* WallFeedRouter.m */,
+				E8E81F211C4429A6005C59F3 /* WallFeedRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E8E81F221C4429A6005C59F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				473DBEF91C44D98200516EE8 /* cells */,
+				E8E81F231C4429A6005C59F3 /* WallFeedViewController.h */,
+				E8E81F241C4429A6005C59F3 /* WallFeedViewController.m */,
+				E8E81F251C4429A6005C59F3 /* WallFeedViewInput.h */,
+				E8E81F261C4429A6005C59F3 /* WallFeedViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8E81F2C1C443E6C005C59F3 /* WallFeedDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E8E81F2D1C443E8F005C59F3 /* WallFeedDataSource.h */,
+				E8E81F2E1C443E8F005C59F3 /* WallFeedDataSource.m */,
+			);
+			path = WallFeedDataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E81EDA1C4411A3005C59F3 /* VKFeedaiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E81EFD1C4411A3005C59F3 /* Build configuration list for PBXNativeTarget "VKFeedaiper" */;
+			buildPhases = (
+				1AA742B3F1848BF0980ACAD3 /* Check Pods Manifest.lock */,
+				E8E81ED71C4411A3005C59F3 /* Sources */,
+				E8E81ED81C4411A3005C59F3 /* Frameworks */,
+				E8E81ED91C4411A3005C59F3 /* Resources */,
+				A811AECCA4EDAF7279054015 /* Embed Pods Frameworks */,
+				0277DA0C4A790F1EF4E3C87F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKFeedaiper;
+			productName = VKFeedaiper;
+			productReference = E8E81EDB1C4411A3005C59F3 /* VKFeedaiper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E81EF31C4411A3005C59F3 /* VKFeedaiperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E81F001C4411A3005C59F3 /* Build configuration list for PBXNativeTarget "VKFeedaiperTests" */;
+			buildPhases = (
+				42A097157738ADBED38EC763 /* Check Pods Manifest.lock */,
+				E8E81EF01C4411A3005C59F3 /* Sources */,
+				E8E81EF11C4411A3005C59F3 /* Frameworks */,
+				E8E81EF21C4411A3005C59F3 /* Resources */,
+				DC8EAE7F4D3BBE2653CF705A /* Embed Pods Frameworks */,
+				701549F55AFF252D74B66695 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E81EF61C4411A3005C59F3 /* PBXTargetDependency */,
+			);
+			name = VKFeedaiperTests;
+			productName = VKFeedaiperTests;
+			productReference = E8E81EF41C4411A3005C59F3 /* VKFeedaiperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E81ED31C4411A3005C59F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lobanov Aleksey";
+				TargetAttributes = {
+					E8E81EDA1C4411A3005C59F3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E8E81EF31C4411A3005C59F3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E8E81EDA1C4411A3005C59F3;
+					};
+				};
+			};
+			buildConfigurationList = E8E81ED61C4411A3005C59F3 /* Build configuration list for PBXProject "VKFeedaiper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E81ED21C4411A3005C59F3;
+			productRefGroup = E8E81EDC1C4411A3005C59F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E81EDA1C4411A3005C59F3 /* VKFeedaiper */,
+				E8E81EF31C4411A3005C59F3 /* VKFeedaiperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E81ED91C4411A3005C59F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E81EEE1C4411A3005C59F3 /* LaunchScreen.storyboard in Resources */,
+				E8E81EEB1C4411A3005C59F3 /* Assets.xcassets in Resources */,
+				E8E81EE91C4411A3005C59F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E81EF21C4411A3005C59F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0277DA0C4A790F1EF4E3C87F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKFeedaiper/Pods-VKFeedaiper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AA742B3F1848BF0980ACAD3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42A097157738ADBED38EC763 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		701549F55AFF252D74B66695 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKFeedaiperTests/Pods-VKFeedaiperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A811AECCA4EDAF7279054015 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKFeedaiper/Pods-VKFeedaiper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8EAE7F4D3BBE2653CF705A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKFeedaiperTests/Pods-VKFeedaiperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E81ED71C4411A3005C59F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E81F2B1C4429A6005C59F3 /* WallFeedViewController.m in Sources */,
+				E8E81F2F1C443E8F005C59F3 /* WallFeedDataSource.m in Sources */,
+				E8E81EE31C4411A3005C59F3 /* AppDelegate.m in Sources */,
+				473DBF011C44E16100516EE8 /* MDHTMLLabel.m in Sources */,
+				E8E81F271C4429A6005C59F3 /* WallFeedAssembly.m in Sources */,
+				E8E81F0F1C441F42005C59F3 /* WallNetworkHelper.m in Sources */,
+				E8E81F091C44185E005C59F3 /* BaseNetworkHelper.m in Sources */,
+				E8E81EE01C4411A3005C59F3 /* main.m in Sources */,
+				E8E81F2A1C4429A6005C59F3 /* WallFeedRouter.m in Sources */,
+				E8E81F291C4429A6005C59F3 /* WallFeedPresenter.m in Sources */,
+				E8E81F281C4429A6005C59F3 /* WallFeedInteractor.m in Sources */,
+				E8E81F0D1C441AFA005C59F3 /* WallModel.m in Sources */,
+				473DBEFC1C44D9A600516EE8 /* WallFeedViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E81EF01C4411A3005C59F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E81EF91C4411A3005C59F3 /* VKFeedaiperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8E81EF61C4411A3005C59F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E81EDA1C4411A3005C59F3 /* VKFeedaiper */;
+			targetProxy = E8E81EF51C4411A3005C59F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8E81EE71C4411A3005C59F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E81EE81C4411A3005C59F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8E81EEC1C4411A3005C59F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E81EED1C4411A3005C59F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E81EFB1C4411A3005C59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8E81EFC1C4411A3005C59F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E81EFE1C4411A3005C59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA0C56155E78505010675C0 /* Pods-VKFeedaiper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKFeedaiper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.alobanov.VKFeedaiper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8E81EFF1C4411A3005C59F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B06390792597F54B57ADD47 /* Pods-VKFeedaiper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKFeedaiper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.alobanov.VKFeedaiper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8E81F011C4411A3005C59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5134A5C64C66A04B2A822A16 /* Pods-VKFeedaiperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKFeedaiperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.alobanov.VKFeedaiperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKFeedaiper.app/VKFeedaiper";
+			};
+			name = Debug;
+		};
+		E8E81F021C4411A3005C59F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246B3771909186639FCB607E /* Pods-VKFeedaiperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKFeedaiperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.alobanov.VKFeedaiperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKFeedaiper.app/VKFeedaiper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E81ED61C4411A3005C59F3 /* Build configuration list for PBXProject "VKFeedaiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E81EFB1C4411A3005C59F3 /* Debug */,
+				E8E81EFC1C4411A3005C59F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E81EFD1C4411A3005C59F3 /* Build configuration list for PBXNativeTarget "VKFeedaiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E81EFE1C4411A3005C59F3 /* Debug */,
+				E8E81EFF1C4411A3005C59F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E81F001C4411A3005C59F3 /* Build configuration list for PBXNativeTarget "VKFeedaiperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E81F011C4411A3005C59F3 /* Debug */,
+				E8E81F021C4411A3005C59F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E81ED31C4411A3005C59F3 /* Project object */;
+}
