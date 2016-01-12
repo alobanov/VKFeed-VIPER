@@ -36,7 +36,7 @@ NSInteger const kOffsetPagination = 10;
     return self;
 }
 
-#pragma mark - WallFeedInteractorInput
+#pragma mark - WallFeedInteractorInput -
 
 - (void)obtainWallData
 {

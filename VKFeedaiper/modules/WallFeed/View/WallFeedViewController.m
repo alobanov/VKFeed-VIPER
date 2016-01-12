@@ -21,7 +21,7 @@
 
 @implementation WallFeedViewController
 
-#pragma mark - Life cycle
+#pragma mark - Life cycle -
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
@@ -39,7 +39,7 @@
     [self.output didTriggerViewReadyEvent];
 }
 
-#pragma mark - WallFeedViewInput
+#pragma mark - WallFeedViewInput -
 
 - (void)setupInitialState
 {

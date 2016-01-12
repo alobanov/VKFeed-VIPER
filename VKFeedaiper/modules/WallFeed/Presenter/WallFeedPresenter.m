@@ -23,9 +23,9 @@
     return self;
 }
 
-#pragma mark - WallFeedModuleInput
+#pragma mark - WallFeedModuleInput -
 
-#pragma mark - WallFeedViewOutput
+#pragma mark - WallFeedViewOutput -
 
 - (void)didTriggerViewReadyEvent
 {
@@ -39,7 +39,7 @@
     [self.interactor obtainWallData];
 }
 
-#pragma mark - WallFeedInteractorOutput
+#pragma mark - WallFeedInteractorOutput -
 
 - (void)loadedWallItems:(NSArray<WallModel *> *)items andError:(NSError *)error
 {
